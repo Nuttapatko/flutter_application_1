@@ -1,5 +1,6 @@
-import 'package:example_1/screen/my_second_page.dart';
 import 'package:flutter/material.dart';
+
+import 'my_second_page.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});

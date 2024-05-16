@@ -1,6 +1,5 @@
-import 'package:example_1/screen/my_home_page.dart';
-import 'package:example_1/screen/my_second_page.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screen/my_home_page.dart';
 
 class MySecondPage extends StatelessWidget {
   const MySecondPage({super.key});
