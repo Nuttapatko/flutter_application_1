@@ -1,5 +1,6 @@
+// ignore: depend_on_referenced_packages
+
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screen/my_home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
         colorScheme:
-            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 238, 8, 8)),
+            ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 133, 89, 6)),
         useMaterial3: true,
       ),
       home: const MyHomePage(),
